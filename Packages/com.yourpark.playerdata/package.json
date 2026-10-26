@@ -1,0 +1,12 @@
+{
+  "name": "com.yourpark.playerdata",
+  "version": "0.1.0",
+  "displayName": "Your Park PlayerData",
+  "description": "Local capture, versioned persistence and session-only replay.",
+  "unity": "6000.3",
+  "dependencies": {
+    "com.unity.modules.audio": "1.0.0",
+    "com.unity.modules.imageconversion": "1.0.0",
+    "com.unity.modules.jsonserialize": "1.0.0"
+  }
+}

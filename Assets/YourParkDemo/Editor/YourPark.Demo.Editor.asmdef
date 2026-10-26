@@ -1,0 +1,1 @@
+{"name":"YourPark.Demo.Editor","references":["YourPark.Demo","YourPark.PlayerData"],"includePlatforms":["Editor"]}

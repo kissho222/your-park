@@ -1,0 +1,8 @@
+* text=auto eol=lf
+*.png binary
+*.wav binary
+# Unity emits trailing spaces for empty YAML scalar fields.
+*.meta whitespace=-blank-at-eol
+*.unity whitespace=-blank-at-eol
+*.asset whitespace=-blank-at-eol
+*.mat whitespace=-blank-at-eol

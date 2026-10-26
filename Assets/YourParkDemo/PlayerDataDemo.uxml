@@ -1,0 +1,35 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+  <Style src="PlayerDataDemo.uss" />
+  <ui:VisualElement name="panel">
+    <ui:Label text="PlayerData Capture v0" class="title" />
+    <ui:Label text="Local only / Raw camera + microphone / Mock motion" />
+    <ui:Label name="folder" />
+    <ui:VisualElement class="row">
+      <ui:Button name="camera" text="Start camera" />
+      <ui:Button name="stop-camera" text="Stop camera" />
+      <ui:Button name="snapshot" text="Save frame" />
+      <ui:Button name="record" text="Record 10 s" />
+      <ui:Button name="cancel" text="Cancel capture" />
+    </ui:VisualElement>
+    <ui:Image name="preview" />
+    <ui:VisualElement class="row">
+      <ui:Button name="mock" text="Save mock motion (10 s)" />
+      <ui:Button name="reload" text="Read manifest" />
+      <ui:Button name="load" text="Load selected into RAM" />
+      <ui:Button name="play" text="Replay selected (RAM)" />
+    </ui:VisualElement>
+    <ui:DropdownField name="selection" label="Saved / loaded sample" />
+    <ui:ScrollView name="manifest-scroll"><ui:Label name="manifest" /></ui:ScrollView>
+    <ui:VisualElement class="row">
+      <ui:Button name="folder-open" text="Open PlayerData folder" />
+      <ui:Button name="delete" text="Delete PlayerData only" />
+      <ui:Button name="story" text="Check StoryProgress" />
+    </ui:VisualElement>
+    <ui:VisualElement name="delete-confirm" class="row">
+      <ui:Label text="Delete disk PlayerData? Loaded RAM survives this session." />
+      <ui:Button name="delete-yes" text="Delete" />
+      <ui:Button name="delete-no" text="Cancel" />
+    </ui:VisualElement>
+    <ui:Label name="status" text="Devices are off. Start capture explicitly." />
+  </ui:VisualElement>
+</ui:UXML>

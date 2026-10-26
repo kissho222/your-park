@@ -1,0 +1,10 @@
+#panel { width: 68%; height: 100%; padding: 18px; background-color: rgba(20, 26, 35, 0.96); color: rgb(235, 241, 247); }
+.title { font-size: 25px; -unity-font-style: bold; margin-bottom: 10px; }
+.row { flex-direction: row; flex-wrap: wrap; margin-top: 10px; }
+Button { min-height: 32px; margin-right: 5px; padding-left: 9px; padding-right: 9px; }
+#folder, #status { white-space: normal; margin-top: 8px; }
+#preview { width: 240px; height: 160px; background-color: rgb(4, 6, 10); -unity-background-scale-mode: scale-to-fit; }
+#manifest-scroll { flex-grow: 1; min-height: 90px; margin-top: 8px; }
+#manifest { font-size: 12px; white-space: normal; }
+#selection { margin-top: 10px; }
+#delete-confirm { display: none; }

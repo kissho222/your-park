@@ -1,0 +1,9 @@
+<linker>
+  <assembly fullname="YourPark.PlayerData">
+    <type fullname="YourPark.PlayerData.PlayerDataManifest" preserve="all" />
+    <type fullname="YourPark.PlayerData.SampleMetadata" preserve="all" />
+    <type fullname="YourPark.PlayerData.PoseClip" preserve="all" />
+    <type fullname="YourPark.PlayerData.PoseFrame" preserve="all" />
+    <type fullname="YourPark.PlayerData.Landmark" preserve="all" />
+  </assembly>
+</linker>
