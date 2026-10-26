@@ -10,6 +10,8 @@
 
 ## 変更ファイル
 
+実装コミット `3c6786e` を `origin/feat/playerdata-capture-v0` へpush済み。Issue #2へ実装・自動検証・残る手動確認を報告済みでOpenを維持。空リポジトリへの初回pushのため、このfeatureブランチが現在の既定ブランチ。main/PRは未作成。元の相談スレッドへ実装URLと#1分担も再通知済み。
+
 `Packages/com.yourpark.playerdata/Runtime` にデータ・保存・RAMセッション・WAV・mock・Unity機器入力・Motion再生を追加。`Tests/Editor` に回帰テスト。`Assets/YourParkDemo` に固定UXML/USSとScene生成/Windowsビルド用Editor機能。`docs/PLAYER_DATA_FRAMEWORK.md` とREADMEに仕様・責務・確認手順。
 
 ## 確認結果
